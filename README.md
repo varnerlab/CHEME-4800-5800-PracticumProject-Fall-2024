@@ -48,4 +48,4 @@ Scoring will be based on the following criteria:
 ### Rules, deadlines, and submission guidelines
 * The practicum is due on __Saturday, December 21, 2024__ by __11:50 PM__ ITH time. This is a first submission deadline (revisions may be requested by the teaching team in case of issues).
 * You may use your course materials and any literature resources (as well as the internet) to formulate your solutions.
-* You __MAY__ work in terms or individually. Submit your solution to the GitHub Classroom link by the deadline.
+* You __MAY__ work in terms (up to 3 people max) or individually. Submit your solution to the GitHub Classroom link by the deadline.
