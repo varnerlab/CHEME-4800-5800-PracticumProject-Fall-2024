@@ -22,15 +22,15 @@ The project will be divided into two parts. The first part will be developing a 
 
 Using this price data, we can compute the annualized growth rate (return) over a period $\Delta{t}$ (units: years) for ticker `i` as follows:
 $$
-\begin{equation*}
+\begin{equation}
 \mu^{(i)}_{j,j-1} = \frac{1}{\Delta{t}}\cdot\ln\left(\frac{S^{(i)}_j}{S^{(i)}_{j-1}}\right)\quad\text{for}\quad j = 2,3,\ldots,N
-\end{equation*}
+\end{equation}
 $$
 where $S^{(i)}_{\star}$ is the price of the asset at time $t = \star$ and $\Delta{t}$ is the time difference between time steps $j$ and $j-1$, and $N$ is the number of time steps. The annualized volatility of the asset is computed as the `sqrt` of the variance of the growth rates, where the annualized variance of the growth rate is given by:
 $$
-\begin{equation*}
+\begin{equation}
 \text{Var}(S_{j}/S_{j-1}) = \sigma^{2}\cdot\Delta{t}
-\end{equation*}
+\end{equation}
 $$
 where the annualized volatility is given by $\sqrt{\text{Var}(S_{j}/S_{j-1})} = \sigma\sqrt{\Delta{t}}$, and $\sigma$ is the standard deviation of the growth rates.
 
